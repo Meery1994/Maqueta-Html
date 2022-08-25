@@ -1,0 +1,125 @@
+body{
+  max-width:100%;
+  padding:0%;
+  overflow-x: hidden;
+}
+h2{
+    font-family: verdana;
+    font-variant: small-caps;
+    text-align:center;
+    font-size:15pt;
+    color:rgb(6, 75, 204);
+}
+h3{
+  font-family: verdana, 20px;
+  color:rgb(46, 118, 252);
+    font-variant: small-caps;
+}
+
+/*sobremi*/
+ .sobremi.container{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  max-width: 20%;
+  height: fit-content;
+  position: relative;
+  left:50px;
+  bottom:890px;
+}
+.sobremi.container p{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15pt;
+  font-style: normal;
+  font-weight: 400;
+}
+ 
+/*Portada*/
+.banner img{
+  margin-top:6%;
+  height: 700px;
+  width: 2000px;
+ }
+ 
+ 
+ /*Perfil*/
+.card{
+  width: 280px;
+  height:380px;
+  position: relative;
+  left: 240px;
+  bottom:400px;
+}
+
+/*barra de navegación*/
+i.fa-brands.fa-linkedin.fa-2xl,i.fa-brands.fa-square-github.fa-2xl,i.fa-brands.fa-instagram.fa-2xl,i.fa-brands.fa-square-twitter.fa-2xl,i.fa-solid.fa-circle-user.fa-2xl{
+  color:rgb(250, 251, 253);
+}
+i.fa-brands.fa-linkedin.fa-2xl:hover{
+  color:rgb(128, 187, 255);
+}
+i.fa-brands.fa-square-github.fa-2xl:hover{
+color:rgb(80, 77, 77);
+}
+  
+i.fa-brands.fa-instagram.fa-2xl:hover{
+    color: rgb(238, 10, 188);
+}
+  
+i.fa-brands.fa-square-twitter.fa-2xl:hover{
+color:rgb(24, 24, 230);
+}
+
+i.fa-solid.fa-circle-user.fa-2xl:hover{
+color:rgb(114, 38, 185);
+}
+
+ul.list-group.list-group-horizontal{
+    --bs-list-group-bg:transparent;
+    --bs-list-group-border-color: transparent;
+}
+.navbar.navbar-dark.bg-primary.fixed-top{
+    height:17vh;
+}
+  
+/*experiencia laboral*/
+.container.text-center p{
+  font-family:Verdana, sans-serif;
+}
+.container.text-center{
+    position:relative;
+    bottom:500px;
+}
+.experiencia.container.overflow-hidden.text-center{
+  position:relative;
+  bottom:600px;
+}
+
+/*educacion*/
+.educacion.container.overflow-hidden.text-center{
+  position:relative;
+ top:200px;
+}
+#accordionFlushExample{
+position: relative;
+bottom: 200px;
+margin-left:8%;
+margin-right:8%;
+}
+.rounded-circle.w-25{
+  max-width:100px;
+}
+.accordion-body{
+  max-width: 50%;
+  height: fit-content;
+}
+
+/*Hard & soft skills*/
+.Hard.container.overflow-hidden.text-center{
+  position:relative;
+  bottom:100px;
+  left:7px;
+}
+.progress-bar.progress-bar-striped.progress-bar-animated{
+  margin-top: 4px;
+}
